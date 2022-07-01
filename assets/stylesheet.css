@@ -245,6 +245,14 @@ img {
   float:  left;
 }
 
+.iconimage {
+    margin: 5px 5px 4px 0;
+    vertical-align: bottom;
+    width: 3%;
+    height: 3%; 
+}
+
+
 @media (max-width: 1000px) {
 
       .contactavatar {
@@ -259,6 +267,13 @@ img {
           border-radius: 80%;
           margin: 0px 50px 0px 0px;
           float:  top;
+        }
+
+        .iconimage {
+            margin: 5px 5px 4px 0;
+            vertical-align: bottom;
+            width: 1%;
+            height: 1%; 
         }
 
 }
@@ -291,10 +306,6 @@ img {
     top: -0.5rem; 
 }
 
-.iconimage {
-    margin: 5px 5px 4px 0;
-    vertical-align: bottom; 
-}
 
 
 blockquote .sidenote,
